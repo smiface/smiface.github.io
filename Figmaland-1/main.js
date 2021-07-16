@@ -42,11 +42,7 @@ $(document).ready(function () {
         bindScroll(item, $('section')[index + 1])
     })
 
-    isBurgerShow = false;
-
     function toggleBurgerShow() {
-        isBurgerShow = !isBurgerShow
-
         $('.burger').toggleClass(" burgerHidden")
         $('.burger-navigation').toggleClass(" burger-navigation-hidden")
         $('.section-one').toggleClass(" mt-5")
