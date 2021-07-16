@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+    <title>Figma Land</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+</head>
+
+<body>
+    <!-- to top button -->
+    <button type="button" class="btn-back-to-top" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <main class="">
+
+        <header class="mob-header d-flex flex-column col-md-12">
+            <div>
+                <div class="d-flex justify-content-between">
+                    <h3> Physionic</h3>
+
+                    <div class="mob-navigation ">
+                        <button class=""><img src="./src/icons/search.svg" alt="" srcset=""></button>
+                        <button><img src="./src/icons/market.svg" alt="" srcset=""></button>
+                        <button id='burgerMenuBtn'><img src="./src/icons/more.svg" alt="" srcset=""></button>
+                    </div>
+                </div>
+
+                <div class="navigation  navigation-hidden d-flex">
+                    <button>
+                        <p class="link header-mob-link">Home</p>
+                    </button>
+                    <button>
+                        <p class="link header-mob-link">Product</p>
+                    </button>
+                    <button>
+                        <p class="link header-mob-link">FAQ</p>
+                    </button>
+                    <button>
+                        <p class="link header-mob-link">Pricing</p>
+                    </button>
+                    <button>
+                        <p class="link header-mob-link">Contact</p>
+                    </button>
+
+
+                </div>
+            </div>
+        </header>
+
+        <section class="section-one ">
+            <div class="container">
+                <header class="pc-header d-flex align-items-center justify-content-between ">
+                    <div class="left ">
+                        <div class="d-flex align-items-center mob-navigation-flip">
+                            <div class="d-flex">
+                                <div>
+                                    <h3> Physionic</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="navigation d-flex " id='navigation'>
+                                <button class=" header-link">
+                                    <p>Home</p>
+                                </button>
+                                <button class=" header-link">
+                                    <p>Product</p>
+                                </button>
+                                <button class=" header-link">
+                                    <p>FAQ</p>
+                                </button>
+                                <button class=" header-link">
+                                    <p>Pricing</p>
+                                </button>
+                                <button class=" header-link">
+                                    <p>Contact</p>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                        <button class="btn btn-blue d-flex align-items-center justify-content-around">
+                            <p class="btn-text">Get Quote Now</p>
+                            <img src="./src/icons/arrow-right.svg" alt="" srcset="">
+                        </button>
+                    </div>
+                </header>
+
+                <div class="flip d-flex justify-content-between content  ">
+                    <div data-wow-duration="0.5s"
+                        class="title d-flex flex-column justify-content-center  wow slideInLeft ">
+                        <h1>Meet the Best Hospital</h1>
+                        <h4>We know how large objects will act, but things on a small scale.</h4>
+                        <div>
+                            <button class="btn btn-circled btn-blue">
+                                <p class="btn-text">Get Quote Now</p>
+                            </button>
+                            <button class="btn btn-circled btn-transparent">
+                                <div class="btn-text">Learn More</div>
+                            </button>
+                        </div>
+                    </div>
+                    <form class="wow slideInLeft">
+                        <div class="card align-items-center">
+                            <h3>Book Appointment</h3>
+
+                            <label for="InputName">
+                                <h6>Name*</h6>
+                                <input id="InputName" type="text" placeholder="Full Name *">
+                            </label>
+                            <label for="InputEmail">
+                                <h6>Email address *</h6>
+                                <input id="InputEmail" type="text" placeholder="example@gmail.com">
+                            </label>
+                            <div>
+                                <h6>Departement *</h6>
+                                <select id='SelectDepartement'>
+                                    <option value="First">First one</option>
+                                    <option value="Second">Second</option>
+                                    <option value="Third">Third</option>
+                                </select>
+                                <!-- <input id="InputDepartement" type="text" placeholder="Please Select"> -->
+                            </div>
+                            <label for="InputTime">
+                                <h6>Time *</h6>
+                                <select id='InputTime'>
+                                    <option value="First">4:00 Available</option>
+                                    <option value="Second">4:40 Available</option>
+                                    <option value="Third">5:20 Available</option>
+                                </select>
+                                <!-- <input id="InputTime" type="text" placeholder="4:00 Available"> -->
+                            </label>
+
+                            <button class="btn btn-blue d-flex align-items-center">Book Appointment</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-two  ">
+            <div class="container">
+                <div class="heading wow slideInUp text-center mx-auto">
+                    <h2>Home</h2>
+                    <p>
+                        Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics
+                    </p>
+                </div>
+                <div class="flip wow slideInUp  cards d-flex justify-content-between ">
+                    <div class="card wow pulse ">
+                        <div class="card-title d-flex align-items-center justify-content-center">
+                            <div class="circle d-flex align-items-center justify-content-center">
+                                <img src="./src/icons/people.svg" alt="">
+                            </div>
+                            <h5>
+                                Emergency Case
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h6>- The best products start with Figma</h6>
+                                </li>
+                                <li>
+                                    <h6>- Design with real data</h6>
+                                </li>
+                                <li>
+                                    <h6>- Lightning fast prototyping</h6>
+                                </li>
+                                <li>
+                                    <h6>- Fastest way to organize</h6>
+                                </li>
+                                <li>
+                                    <h6>- Work at the speed of thought.</h6>
+                                </li>
+                                <a href="#">Learn More</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title d-flex align-items-center justify-content-center">
+                            <div class="circle d-flex align-items-center justify-content-center">
+                                <img src="./src/icons/people.svg" alt="">
+                            </div>
+                            <h5>
+                                Emergency Case
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h6>- The best products start with Figma</h6>
+                                </li>
+                                <li>
+                                    <h6>- Design with real data</h6>
+                                </li>
+                                <li>
+                                    <h6>- Lightning fast prototyping</h6>
+                                </li>
+                                <li>
+                                    <h6>- Fastest way to organize</h6>
+                                </li>
+                                <li>
+                                    <h6>- Work at the speed of thought.</h6>
+                                </li>
+                                <a href="#">Learn More</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title d-flex align-items-center justify-content-center">
+                            <div class="circle d-flex align-items-center justify-content-center">
+                                <img src="./src/icons/people.svg" alt="">
+                            </div>
+                            <h5>
+                                Emergency Case
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h6>- The best products start with Figma</h6>
+                                </li>
+                                <li>
+                                    <h6>- Design with real data</h6>
+                                </li>
+                                <li>
+                                    <h6>- Lightning fast prototyping</h6>
+                                </li>
+                                <li>
+                                    <h6>- Fastest way to organize</h6>
+                                </li>
+                                <li>
+                                    <h6>- Work at the speed of thought.</h6>
+                                </li>
+                                <a href="#">Learn More</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-three ">
+            <div class="container">
+                <div class="heading text-center mx-auto wow slideInUp">
+                    <h2>Product</h2>
+                    <p>
+                        Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics
+                    </p>
+                </div>
+
+                <div class="cards d-flex justify-content-between flip wow slideInUp">
+
+                    <div class="card">
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star.png" alt="" srcset="">
+                        </div>
+
+                        <div class="card-body">
+                            <h6> Slate helps you see how many
+                                more days you need to work to
+                                reach your financial goal.</h6>
+                            <img src="./src/img/feedback-people-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star.png" alt="" srcset="">
+                        </div>
+
+                        <div class="card-body">
+                            <h6> Slate helps you see how many
+                                more days you need to work to
+                                reach your financial goal.</h6>
+                            <img src="./src/img/feedback-people-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star-full.png" alt="" srcset="">
+                            <img src="./src/icons/rating-star.png" alt="" srcset="">
+                        </div>
+
+                        <div class="card-body">
+                            <h6> Slate helps you see how many
+                                more days you need to work to
+                                reach your financial goal.</h6>
+                            <img src="./src/img/feedback-people-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-four ">
+            <div class="container">
+                <div class="heading text-center mx-auto wow slideInUp">
+                    <h2>FAQ</h2>
+                    <p>
+                        Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics
+                    </p>
+                </div>
+
+                <div class="cards  justify-content-between flip wow slideInUp">
+
+                    <div class="card">
+
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/arrow-right.png" alt="">
+                        </div>
+
+                        <div class="card-body">
+                            <h5> the quick fox jumps over the
+                                lazy dog</h5>
+                            <h6>Things on a very small scale
+                                behave like nothing </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/arrow-right.png" alt="">
+                        </div>
+
+                        <div class="card-body">
+                            <h5> the quick fox jumps over the
+                                lazy dog</h5>
+                            <h6>Things on a very small scale
+                                behave like nothing </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/arrow-right.png" alt="">
+                        </div>
+
+                        <div class="card-body">
+                            <h5> the quick fox jumps over the
+                                lazy dog</h5>
+                            <h6>Things on a very small scale
+                                behave like nothing </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/arrow-right.png" alt="">
+                        </div>
+
+                        <div class="card-body">
+                            <h5> the quick fox jumps over the
+                                lazy dog</h5>
+                            <h6>Things on a very small scale
+                                behave like nothing </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/arrow-right.png" alt="">
+                        </div>
+
+                        <div class="card-body">
+                            <h5> the quick fox jumps over the
+                                lazy dog</h5>
+                            <h6>Things on a very small scale
+                                behave like nothing </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-title d-flex align-items-center ">
+                            <img src="./src/icons/arrow-right.png" alt="">
+                        </div>
+
+                        <div class="card-body">
+                            <h5> the quick fox jumps over the
+                                lazy dog</h5>
+                            <h6>Things on a very small scale
+                                behave like nothing </h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-five ">
+            <div class="container">
+                <div class="heading text-center mx-auto wow slideInUp">
+                    <h2>Pricing</h2>
+                    <p>
+                        Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics
+                    </p>
+                </div>
+
+                <div class="cards d-flex justify-content-between flip  ">
+
+                    <div class="card">
+
+                        <div class="card-title text-center">
+                            <h3>FREE</h3>
+                        </div>
+
+                        <div class="card-body d-flex flex-column align-items-center ">
+                            <h5 class="title">Organize across all
+                                apps by hand</h5>
+
+                            <div class="d-flex price">
+                                <h2>0</h2>
+                                <div>
+                                    <h5>$</h5>
+                                    <h6>Per Month</h6>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-gray"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>1GB Cloud storage </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-gray"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Email and community support</h6>
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-blue">
+                                <p class="btn-text">Try for free</p>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="card card-dark">
+
+                        <div class="card-title text-center">
+                            <h3>STANDARD</h3>
+                        </div>
+
+                        <div class="card-body d-flex flex-column align-items-center ">
+                            <h5 class="title">Organize across all
+                                apps by hand</h5>
+
+                            <div class="d-flex price">
+                                <h2>9.99</h2>
+                                <div>
+                                    <h5>$</h5>
+                                    <h6>Per Month</h6>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>1GB Cloud storage </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-gray"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Email and community support</h6>
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-blue">
+                                <p class="btn-text">Try for free</p>
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card">
+
+                        <div class="card-title text-center">
+                            <h3>PREMIUM</h3>
+                        </div>
+
+                        <div class="card-body d-flex flex-column align-items-center ">
+                            <h5 class="title">Organize across all
+                                apps by hand</h5>
+
+                            <div class="d-flex price">
+                                <h2>19.99</h2>
+                                <div>
+                                    <h5>$</h5>
+                                    <h6>Per Month</h6>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Unlimited product updates
+                                    </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>1GB Cloud storage </h6>
+                                </li>
+                                <li class="d-flex  align-items-center">
+                                    <div class="circle circle-green"><img src="./src/icons/check.svg" alt=""></div>
+                                    <h6>Email and community support</h6>
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-blue">
+                                <p class="btn-text">Try for free</p>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-six ">
+            <div class="container">
+                <div class="flip align-items-center justify-content-between ">
+                    <div class="d-flex flex-column justify-content-center title  wow slideInLeft">
+                        <h3>Subscribe For Latest
+                            Newsletter</h3>
+                    </div>
+
+                    <form action="" class="d-flex wow slideInRight">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit" class="btn btn-blue">
+                            <p>Subscribe</p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="">
+            <div class="container">
+                <div class="flip">
+                    <div class="d-flex flex-column">
+                        <h3>Get In Touch</h3>
+                        <p>the quick fox jumps over the
+                            lazy dog</p>
+                        <div class="d-flex social">
+                            <a href="#"><img src="./src/icons/social-facebook.svg" alt=""></a>
+                            <a href="#"><img src="./src/icons/social-instagram.svg" alt=""></a>
+                            <a href="#"><img src="./src/icons/social-twitter.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h3>Company info</h3>
+                        <a href="#">About Us</a>
+                        <a href="#">Carrier</a>
+                        <a href="#">We are hiring</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h3>Features</h3>
+                        <a href="#">Business Marketing</a>
+                        <a href="#">User Analytic</a>
+                        <a href="#">Live Chat</a>
+                        <a href="#">Unlimited Support</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h3>Resources</h3>
+                        <a href="#">IOS & Android</a>
+                        <a href="#">Watch a Demo</a>
+                        <a href="#">Customers</a>
+                        <a href="#">API</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-line text-center">
+                <h6>Made With Love By Figmaland All Right Reserved </h6>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>new WOW().init();</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+<script src="./main.js"></script>
+
+</html>
