@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "//smiface.github.io/react-cookie-calculator/static/css/main.3fa163b6.chunk.css",
-    "main.js": "//smiface.github.io/react-cookie-calculator/static/js/main.b75fb066.chunk.js",
-    "main.js.map": "//smiface.github.io/react-cookie-calculator/static/js/main.b75fb066.chunk.js.map",
+    "main.css": "//smiface.github.io/react-cookie-calculator/static/css/main.6def9c09.chunk.css",
+    "main.js": "//smiface.github.io/react-cookie-calculator/static/js/main.5d5c0689.chunk.js",
+    "main.js.map": "//smiface.github.io/react-cookie-calculator/static/js/main.5d5c0689.chunk.js.map",
     "runtime-main.js": "//smiface.github.io/react-cookie-calculator/static/js/runtime-main.66c3fd60.js",
     "runtime-main.js.map": "//smiface.github.io/react-cookie-calculator/static/js/runtime-main.66c3fd60.js.map",
     "static/css/2.fb17aa6d.chunk.css": "//smiface.github.io/react-cookie-calculator/static/css/2.fb17aa6d.chunk.css",
-    "static/js/2.25766574.chunk.js": "//smiface.github.io/react-cookie-calculator/static/js/2.25766574.chunk.js",
-    "static/js/2.25766574.chunk.js.map": "//smiface.github.io/react-cookie-calculator/static/js/2.25766574.chunk.js.map",
+    "static/js/2.58559788.chunk.js": "//smiface.github.io/react-cookie-calculator/static/js/2.58559788.chunk.js",
+    "static/js/2.58559788.chunk.js.map": "//smiface.github.io/react-cookie-calculator/static/js/2.58559788.chunk.js.map",
     "index.html": "//smiface.github.io/react-cookie-calculator/index.html",
     "static/css/2.fb17aa6d.chunk.css.map": "//smiface.github.io/react-cookie-calculator/static/css/2.fb17aa6d.chunk.css.map",
-    "static/css/main.3fa163b6.chunk.css.map": "//smiface.github.io/react-cookie-calculator/static/css/main.3fa163b6.chunk.css.map",
-    "static/js/2.25766574.chunk.js.LICENSE.txt": "//smiface.github.io/react-cookie-calculator/static/js/2.25766574.chunk.js.LICENSE.txt"
+    "static/css/main.6def9c09.chunk.css.map": "//smiface.github.io/react-cookie-calculator/static/css/main.6def9c09.chunk.css.map",
+    "static/js/2.58559788.chunk.js.LICENSE.txt": "//smiface.github.io/react-cookie-calculator/static/js/2.58559788.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66c3fd60.js",
     "static/css/2.fb17aa6d.chunk.css",
-    "static/js/2.25766574.chunk.js",
-    "static/css/main.3fa163b6.chunk.css",
-    "static/js/main.b75fb066.chunk.js"
+    "static/js/2.58559788.chunk.js",
+    "static/css/main.6def9c09.chunk.css",
+    "static/js/main.5d5c0689.chunk.js"
   ]
 }
