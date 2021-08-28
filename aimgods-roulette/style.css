@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap");
+* {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+body {
+  background-color: #181827;
+  background-image: url("https://aimgods.finalmouse.com/bfb4b689b9e2f3038467b13f788aeacd.png");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: auto;
+}
+
+body #slider {
+  overflow: hidden;
+  width: 800px;
+}
+
+body #slider .secretBox {
+  max-height: 150px;
+  min-width: 150px;
+}
+
+body #slider img {
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin: 10px 10px;
+}
+
+body #slider .prizeBox {
+  max-width: 90px;
+  height: unset;
+}
+
+body #slider .nothingBox {
+  max-height: 150px;
+  width: 95px;
+}
+
+body #index,
+body #game {
+  position: relative;
+  margin: 200px auto;
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 900px;
+}
+
+body .beforeKeysTaked,
+body .afterKeysTaked {
+  display: none;
+}
+
+body p {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */

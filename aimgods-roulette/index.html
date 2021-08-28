@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <wrapper class="d-flex justify-content-center">
+        <section id="index" class="d-flex">
+            <div class="left col-md-6 mt-5">
+                <img src="./img/dvd.webp" alt="">
+            </div>
+
+            <div class="d-flex flex-column col-md-6  mt-5">
+                <div class="text-warning">
+                    <h5>1st or not</h5>
+                    <h4>For sure not official</h4>
+                    <h3>Wasting time spinner simulator</h3>
+                </div>
+
+                <hr class="text-warning">
+                <p class="text-warning">What do you want win? </p>
+
+                <div class="btn-group btn-group-toggle mt-1 mb-2" data-toggle="buttons">
+                    <label class="btn btn-secondary" id='zoption1'>
+                        <input type="radio" name="options" id="option1" autocomplete="off" value='mouse'> mouse
+                    </label>
+                    <label class="btn btn-secondary" id='zoption2'>
+                        <input type="radio" name="options" id="option2" autocomplete="off" value='game copy'> game copy
+                    </label>
+                    <label class="btn btn-secondary" id='zoption3'>
+                        <input type="radio" name="options" id="option3" autocomplete="off" value='keys'> keys
+                    </label>
+
+                </div>
+
+
+                <div class="beforeKeysTaked wrapper mt-1">
+                    <p class="w-100 text-info">If you here 1st time you can take few keys</p>
+                    <button class=" w-10 gold btn-secondary btn-lg">Take keys</button>
+                </div>
+
+                <div class="afterKeysTaked">
+                    <p class="w-100 text-info mt-1"></p>
+                </div>
+
+                <button type="button" class="btn btn-success mb-1 mt-1" id='gameStartBtn'>Roll</button>
+
+                <button type="button" class="btn btn-primary" id='notification'>
+                    Notifications <span class="badge badge-light  ">1</span>
+                </button>
+
+                <div class=" mt-2">
+                    <h4>Cool pictures <span class="badge badge-secondary">right here</span></h4>
+                    <div class=" d-flex">
+                        <img class='col-3 ' src="./img/icon1.png" alt="" srcset="">
+                        <img class='col-3' src="./img/icon2.png" alt="" srcset="">
+                        <img class='col-3' src="./img/icon3.png" alt="" srcset="">
+                    </div>
+                </div>
+
+                <p class="text-danger mt-2">
+                    * attention : this page was not <a class="text-success" href='https://aimgods.finalmouse.com/'>real
+                        one site </a>, its just animation
+                </p>
+
+
+            </div>
+        </section>
+
+        <section id='game' class=" d-flex flex-column  align-items-center">
+            <h1 class="text-warning mt-5">Are you winning, son?</h1>
+            <img src="./img/arrow.png" class="col-2  mt-5 mb-5" alt="">
+
+            <div class="d-flex border justify-content-between align-items-center" id='slider'>
+
+            </div>
+        </section>
+    </wrapper>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
